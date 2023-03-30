@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <AddNotes />
-      <DisplayNotes notes={notes}/>
+      <AddNotes setNotes={setNotes} notes={notes}/>
+      <DisplayNotes notes={notes} setNotes={setNotes}/>
     </>
   )
 }
