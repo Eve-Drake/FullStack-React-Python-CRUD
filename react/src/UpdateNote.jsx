@@ -29,7 +29,7 @@ const UpdateNote = ({notes, setNotes, id}) => {
             onChange={(e)=>setNewNoteTitle(e.target.value)}
             />
             <p>{newNoteTitle}</p>
-            <button onClick={editNote}>Done</button> 
+            <button onClick={editNote}>Save Edit</button> 
         </div>
         <button onClick={startEdit}>{editActive? 'Cancel' : 'Edit'}</button>
     </>
