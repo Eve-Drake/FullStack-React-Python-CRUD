@@ -19,7 +19,24 @@
   color: whitesmoke;
 }
 
-
 .hidden{
   display: none;
+}
+
+.note-adding-form{
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  width: 50vw;
+}
+
+button{
+margin: 1vh;
+background: none;
+border: 2px solid;
+border-radius: 15px;
+}
+
+button:hover{
+  background-color: grey;
 }
